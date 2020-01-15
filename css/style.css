@@ -1,0 +1,341 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+		
+		
+
+}
+
+
+.container{
+	width: 1140px;
+	margin: 0px auto;
+  
+		
+}
+header{
+	width: 100%;
+	float: left;
+}
+
+
+.logo{
+	width : 30%;
+	
+	float: left;
+	text-align: right;
+	
+}
+.logo a img{
+	height: 78px;
+    margin-right: 80px;
+}
+.menu{
+	width : 40%;
+	float: left;
+
+}
+
+nav ul{
+	list-style: none;
+
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px 10px 0px;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+
+}
+
+.social-btn{
+	width : 30%;
+
+	float: left;
+}
+
+.social-btn ul{
+	list-style: none;
+
+}
+
+.social-btn ul li{
+	display: inline-block;
+	margin: 10px 10px 10px 0px;
+	padding-top: 15px;
+	font-size: 15px;
+
+	
+}
+
+.social-btn ul li a{
+	text-decoration: none;
+
+}
+.fa.fa-facebook{
+	background: #4267B2;
+	color: #fff;
+	padding: 5px 8px;
+}
+
+.fa .fa-twitter{
+
+    background: #d8d8e6;
+    color: #1DA1F3;
+    padding: 8px 5px;
+
+}
+
+.fa.fa-linkedin{
+	 background: #d8d8e6;
+    color: #1DA1F3;
+    padding: 8px 5px;
+
+
+}
+
+.fa .fa-google-plus{
+	color: #DD4B38;
+    padding: 8px 5px;
+    background: black;
+
+}
+
+.fa .fa-sign-in{
+    padding: 10px 5px;
+    background: white;
+}
+
+
+
+.sec-one {
+	width: 100%;
+	float: left;
+}
+
+
+.banner{
+	background-image: url(../img/ha.jpg);
+	display: block;
+	width: 1140px;
+	height: 400px;
+	margin: 5px auto;
+	background-size: cover;
+
+}
+.ad-banner{
+	background: rgba(163, 162, 153,30%);
+	width: 410px;
+	margin: 80px 100px;
+	display: inline-block;
+	
+}
+
+section div div h1{
+	display: block;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.paragraph{
+	display: block;
+	font-size: 11px;
+	text-transform: none;
+	text-align: center;
+	padding-top: 10px;
+	
+}
+
+
+button{
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: white;
+	background-color: #66C430;
+	border-radius: 6px;
+	padding: 6px 4px;
+	margin: 8px
+}
+
+.button{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* Service section starts*/
+
+.sec-two{
+	width: 100%;
+	float: left;
+}
+
+.service-one{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+
+.fa.fa-check{
+	text-align: center;
+	background: #6879D4;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.service-two{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+
+
+.fa.fa-map-marker{
+	text-align: center;
+	background: #009688;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px 25px;
+	font-size: 25px;
+}
+
+.service-three{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+
+
+.fa.fa-money{
+	text-align: center;
+	background: #4CAF50;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+	font-size: 25px;
+}
+
+.service-four{
+	float: left;
+	width: 25%;
+	height: 300px;
+	display: inline-block;
+}
+
+
+.fa.fa-user-plus{
+	text-align: center;
+	background: #97E268;
+	border-radius: 50%;
+	color: white;
+	margin-top: 30px;
+	margin-left: 110px;
+	padding: 20px;
+	font-size: 25px;
+}
+
+section div div h2{
+	display: block;
+	text-align: center;
+	margin: 20px 0px 10px 0px;
+}
+
+section div div p{
+	padding: 15px;
+	text-align: left;
+	font-size: 15px;
+	margin-left: 10px;
+}
+
+.button-two{
+	text-align: center;
+}
+
+/*--Invest Section Starts--*/
+
+.sec-three{
+	width: 100%;
+	float: left;
+}
+
+.invest{
+	width: 50%;
+	float: left;
+
+}
+.invest-bg{
+	background: #B7CCD3;
+	width: 400px;
+	padding: 30px 25px;
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+.fa.fa-stop-circle-o{
+	color: green;
+	margin: 10px;
+}
+
+.para{
+	color: black;
+	margin-left: 5px;
+}
+
+/*Blog Section Starts*/
+
+.sec-four{
+	width: 100%;
+	float: left;
+}
+
+.blog{
+	width: 50%;
+	float: left;
+}
+
+.blog-content{
+	width: 420px;
+	margin: 10px 0px 10px 50px;
+	color: steelblue;
+}
+
+.para-two{
+	display: block;
+	color: black;
+	padding: 10px 0px 0px 0px;
+	margin: 0px;
+
+}.para-three{
+	display: block;
+	color: black;
+	padding: 40px 0px 0px 0px;
+	margin: 0px;
+
+}
+
